@@ -9,7 +9,7 @@ test-cases:
   status: pass
 
 - summary: |
-    Проверка корректности перевода
+ Проверка выбора русской локали сайта
   status: fail
 
   - summary: |
