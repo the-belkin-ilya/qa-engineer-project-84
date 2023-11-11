@@ -5,30 +5,26 @@ test-cases:
   status: pass
 
 - summary: |
-    Корректрость работы градации цены
-  status: pass
-
-- summary: |
  Проверка выбора русской локали сайта
   status: fail
 
-  - summary: |
-   Проверка поисковика
+- summary: |
+   Проверка работы поисковика
   status: pass
 
-  - summary: |
+- summary: |
     Проверка меню выбора категорий
   status: pass
 
-  - summary: |
-      Проверка меню выбора производителей
+- summary: |
+      Проверка работы меню выбора производителей
   status: pass
 
-  - summary: |
+- summary: |
   Оформление заказа
   status: fail
   
-  bugreports:
+bugreports:
   - summary: |
       Не работает меню категорий и производителей
     environment: |
