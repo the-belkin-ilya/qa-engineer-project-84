@@ -21,7 +21,7 @@ test-cases:
   status: pass
 
 - summary: |
-  Оформление заказа
+  Проверка оформления заказа
   status: fail
   
 bugreports:
