@@ -16,7 +16,7 @@
 - summary: |
     Сброс настройки языка при обновлении страницы
   environment: |
-     Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
@@ -30,7 +30,7 @@
 - summary: |
   Отсутвует русская локализация в карточках товаров
   environment: |
-     Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
@@ -44,7 +44,7 @@
 - summary: |
  Отсутвует адаптация под экран смартфона
   environment: |
-     Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
