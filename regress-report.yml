@@ -9,7 +9,7 @@ test-cases:
     status: fail
 
   - summary: |
-       Проверка работы поисковика
+      Проверка фильтра по ключевому слову
     status: pass
 
   - summary: |
