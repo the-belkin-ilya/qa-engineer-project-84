@@ -31,9 +31,9 @@ bugreports:
       Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
       ОС Win10.0
     steps-to-reproduce: |
-      Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      Выбираем категорию = laptops
-      производитель= L'Oreal
+    1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. Выбираем категорию = laptops
+    3. производитель= L'Oreal
     expected-result: |
       Результат должен быть пуст
     actual-result: |
