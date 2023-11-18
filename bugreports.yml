@@ -2,7 +2,7 @@
 - summary: |
     Ошибка 500 при оформлении заказа
   environment: |
-   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+    Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/cart
@@ -16,41 +16,41 @@
 - summary: |
     Сброс настройки языка при обновлении страницы
   environment: |
-   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+    Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
     2. Выбрать в разделе Language = Russian
     3. Обновляем страницу
   expected-result: |
-   Язык страницы = Russian  
+    Язык страницы = Russian  
   actual-result: |
     При обновлении страницы настройка языка сбрасывается, Language = English 
 
 - summary: |
-  Отсутвует русская локализация в карточках товаров
+    Отсутвует русская локализация в карточках товаров
   environment: |
-   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+    Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
     2. Выбрать в разделе Language = Russian
     3. Открываем карточку любого товара
   expected-result: |
-   Язык карточки товара = Russian  
+    Язык карточки товара = Russian  
   actual-result: |
     Отсутвует локалия карточки товара  Language = English
 
 - summary: |
- Отсутвует адаптация под экран смартфона
+    Отсутвует адаптация под экран смартфона
   environment: |
-   Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+    Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
     ОС Win10.0
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app
     2. Открыть Devtools
     3. Demension = Iphone 12pro
   expected-result: |
-   Страница сайта адаптируется под экран любого разрешения  
+    Страница сайта адаптируется под экран любого разрешения  
   actual-result: |
     Страница сайта становится трудночитаемой
