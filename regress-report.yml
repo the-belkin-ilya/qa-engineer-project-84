@@ -1,11 +1,11 @@
 ---
 test-cases:
   - summary: |
-       Проверка добавления товара в корзину
+      Проверка добавления товара в корзину
     status: pass
 
   - summary: |
-       Проверка выбора русской локали сайта
+      Проверка выбора русской локали сайта
     status: fail
 
   - summary: |
@@ -13,23 +13,23 @@ test-cases:
     status: pass
 
   - summary: |
-       Проверка меню выбора категорий
+      Проверка меню выбора категорий
     status: pass
 
   - summary: |
-       Проверка работы меню выбора производителей
+      Проверка работы меню выбора производителей
     status: pass
 
   - summary: |
-       Проверка оформления заказа
+      Проверка оформления заказа
     status: fail
 
 bugreports:
   - summary: |
       Не работает меню категорий и производителей
     environment: |
-       Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
-    ОС Win10.0
+      Yandex Browser 23.9	145.249.199.26  (Официальная сборка) (64 бит)
+      ОС Win10.0
     steps-to-reproduce: |
       Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       Выбираем категорию = laptops
